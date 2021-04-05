@@ -1,0 +1,116 @@
+/* From https://bootsnipp.com/snippets/D0RR1 */
+
+#uploaded-files-gallery-container > ul {
+  margin-bottom: 0;
+}
+#uploaded-files-gallery-container > ul > li {
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    width: 300px;
+}
+#uploaded-files-gallery-container > ul > li a { 
+  border: 3px solid #FFF;
+  border-radius: 3px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+#uploaded-files-gallery-container > ul > li a > img {
+  -webkit-transition: -webkit-transform 0.15s ease 0s;
+  -moz-transition: -moz-transform 0.15s ease 0s;
+  -o-transition: -o-transform 0.15s ease 0s;
+  transition: transform 0.15s ease 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  height: 100%;
+  width: 100%;
+}
+#uploaded-files-gallery-container > ul > li a:hover > img {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+#uploaded-files-gallery-container > ul > li a:hover .uploaded-files-gallery-container-poster > img {
+  opacity: 1;
+}
+#uploaded-files-gallery-container > ul > li a .uploaded-files-gallery-container-poster {
+  background-color: rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: background-color 0.15s ease 0s;
+  -o-transition: background-color 0.15s ease 0s;
+  transition: background-color 0.15s ease 0s;
+}
+#uploaded-files-gallery-container > ul > li a .uploaded-files-gallery-container-poster > img {
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: opacity 0.3s ease 0s;
+  -o-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+}
+#uploaded-files-gallery-container > ul > li a:hover .uploaded-files-gallery-container-poster {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#uploaded-files-gallery-container .justified-gallery > a > img {
+  -webkit-transition: -webkit-transform 0.15s ease 0s;
+  -moz-transition: -moz-transform 0.15s ease 0s;
+  -o-transition: -o-transform 0.15s ease 0s;
+  transition: transform 0.15s ease 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  height: 100%;
+  width: 100%;
+}
+#uploaded-files-gallery-container .justified-gallery > a:hover > img {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+#uploaded-files-gallery-container .justified-gallery > a:hover .uploaded-files-gallery-container-poster > img {
+  opacity: 1;
+}
+#uploaded-files-gallery-container .justified-gallery > a .uploaded-files-gallery-container-poster {
+  background-color: rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: background-color 0.15s ease 0s;
+  -o-transition: background-color 0.15s ease 0s;
+  transition: background-color 0.15s ease 0s;
+}
+#uploaded-files-gallery-container .justified-gallery > a .uploaded-files-gallery-container-poster > img {
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: opacity 0.3s ease 0s;
+  -o-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+}
+#uploaded-files-gallery-container .justified-gallery > a:hover .uploaded-files-gallery-container-poster {
+  background-color: rgba(0, 0, 0, 0);
+}
+#uploaded-files-gallery-container .video .uploaded-files-gallery-container-poster img {
+  height: 48px;
+  margin-left: -24px;
+  margin-top: -24px;
+  opacity: 0.8;
+  width: 48px;
+}
+#uploaded-files-gallery-container.dark > ul > li a {
+  border: 3px solid #04070a;
+}
+.home #uploaded-files-gallery-container {
+  padding-bottom: 80px; 
+}
