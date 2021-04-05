@@ -229,6 +229,10 @@ Thumbs.db #thumbnail cache on Windows
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
+
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/python,flask,visualstudiocode
+
+### Temporary files ###
+tmp
