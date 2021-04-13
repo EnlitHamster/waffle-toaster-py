@@ -236,3 +236,5 @@ Thumbs.db #thumbnail cache on Windows
 
 ### Temporary files ###
 tmp
+
+.vscode/
