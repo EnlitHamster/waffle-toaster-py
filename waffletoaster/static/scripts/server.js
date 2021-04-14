@@ -7,9 +7,8 @@ var getBoard = function () {
 }
 
 var requestNewMainBoard = function () {
-    var boardName = $('#new-main-board-name').val()
     $.ajax({
-        url: '/store/create',
+        url: '/api/create/board',
         method: 'POST',
         data: {
             root: {
